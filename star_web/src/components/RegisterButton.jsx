@@ -70,7 +70,7 @@ class Register extends React.Component {
       password: '',
 
       identity: '2',
-      balance:  '10',
+      balance:  '1',
       invCode:'',
 
       msg:'',
@@ -179,7 +179,7 @@ class Register extends React.Component {
                       <Input id="email" name="email"  autoComplete="email" autoFocus onChange={this.handleEmailChange} />
                     </FormControl>
                     <FormControl margin="normal" required fullWidth>
-                      <InputLabel htmlFor="school">学校</InputLabel>
+                      <InputLabel htmlFor="school">学院</InputLabel>
                       <Input id="school" name="school"  autoComplete="school" autoFocus onChange={this.handleSchoolChange} />
                     </FormControl>
                     <FormControl margin="normal" required fullWidth>
